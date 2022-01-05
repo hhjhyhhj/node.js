@@ -11,6 +11,7 @@ let POST = 5000
 //创建服务器createServer
 const server = http.createServer(serverHandler)
 
+//对服务器进行监听，
 server.listen(POST,()=>{
-    console.log('hhhj')
+    console.log('hhj')
 })

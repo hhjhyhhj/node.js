@@ -58,9 +58,6 @@ const serverHandler = (req,res)=>{
         res.write('404 NOT Found');
         res.end();
     })
-
-   
-
 }
 
 
